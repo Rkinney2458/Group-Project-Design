@@ -1,0 +1,28 @@
+html{
+    text-align: center;
+    background-color:#80ff36 ;
+    font-size: 25px;
+}
+nav ul{
+    text-align: right;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    font-size: 30px;
+}
+article ul{
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 30px;
+    font-size: 30px;
+    color: orange;
+    border: none;
+}
