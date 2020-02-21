@@ -1,14 +1,16 @@
 html{
-    background: lightgray;
+    background: rgb(77, 77, 77);
     height: 100%;
+    color: white;
 }
 body{
-    width:95%;
-    min-width: 640px;
-    max-width: 960px;
+    width:100%;
+    /* min-width: 640px;
+    max-width: 960px; */
     margin-left:auto;
     margin-right:auto;
-    min-height: 100%;
+    margin-top: 0px;
+    height: 100%;
 
  }
 
@@ -45,8 +47,13 @@ nav a{
     color: grey;
 }
 
+h1{
+    text-align: center;
+}
+
 div#header{
-    background: darkgray;
+    width: 100%;
+    background: #122f68;
     margin-top: 0;
 }
 
@@ -55,21 +62,32 @@ div#header section{
 }
 button{
     width: 100px;
-    height: 70px;
+    height: 50px;
     padding: 5px;
     margin: 15px;
-    border-radius: 30px;
-    font-size: 30px;
-    background: grey;
+    border-radius: 15px;
+    font-size: 25px;
+    background: #ffbc64;
     border: none;
 }
 
-/* a {
+article{
+    background: white;
+    padding: 5px 20px;
+    margin: 0px 20px;
+    border-radius: 25px;
+    border: 5px;
+    border-style: solid;
+    border-color: #ffbc64;
+}
+
+aside{
+    background: white;
+    width: 200px;
+    margin: 0px 75px;
+}
+a {
     display: block;
- }
- 
-nav {
-    padding-bottom: 5px;
  }
  
  nav ul {
@@ -79,6 +97,8 @@ nav {
  a:hover+ul, nav ul:hover {
     display: block;
  }
- aside{
-     display: none;
- } */
+
+ img{
+     margin: 25px;
+     margin-left: 100px;
+ }
