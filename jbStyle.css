@@ -1,28 +1,111 @@
 html{
+    height: 960px;
+    background: rgb(240, 242, 252);
+ }
+ 
+ body{
+    height: 100%;
+ }
+ .item1{grid-area: header;}
+ .item2{grid-area: menu;}
+ .item3{grid-area: image;}
+ .item3-2{grid-area: imgText;}
+ .item4{grid-area: article;}
+ .item5{grid-area: footer;}
+ 
+ .item3-2{
+    background: rgb(9, 19, 88);
+}
+
+ .grid-container{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    grid-template-areas: 
+    'header header header header'
+    'image image imgText menu'
+    'article article article menu'
+    'footer footer footer footer';
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+    padding: 10px;
+    background: rgb(240, 242, 252);
+ }
+ .grid-container > div {
     text-align: center;
-    background-color:#80ff36 ;
-    font-size: 25px;
-}
-nav ul{
-    text-align: right;
-    list-style: none;
-}
-nav a{
-    text-decoration: none;
+    padding: 0px 20px;
     font-size: 30px;
-}
-article ul{
-    text-align: center;
-    list-style: none;
-    font-size: 30px;
-}
-button{
-    width: 100px;
-    height: 50px;
-    padding: 5px;
-    margin: 15px;
-    border-radius: 30px;
-    font-size: 30px;
-    color: orange;
+ }
+ 
+ nav ul{
+     list-style: none;
+ }
+ nav a{
+     text-decoration: none;
+     color: rgb(13, 8, 41);
+     letter-spacing: 2px;
+     padding-right: 15px;
+ }
+ nav a:hover{
+     color: rgb(182, 0, 2);
+     text-align: center;
+     
+
+ }
+ h1{
+    padding: 10px 5px;
+    font-size: 45px;
+    color: rgb(182, 0, 2);
+ }
+ button{
+    float: left;
+    background: rgb(182, 0, 2);
+    border-radius: 50px;
     border: none;
+    margin: 5px;
+    padding: 10px;
+    width: 75px;
+    height: 50px;
+ }
+ 
+ img#logo{
+     float: left;
+ }
+
+ .item1{
+     grid-area: header;
+     background: rgb(13, 8, 41);
+     color: rgb(104, 130, 161);
+}
+ .item2{
+     grid-area: menu;
+     background: rgb(104, 130, 161);}
+ .item3{
+     grid-area: image;
+     background: rgb(104, 130, 161);}
+ .item3-2{
+     grid-area: imgText;
+     background: rgb(240, 242, 252);
+    }
+ .item4{
+     grid-area: article;
+     background: rgb(104, 130, 161);
+}
+ .item5{
+     grid-area: footer;
+     background: rgb(13, 8, 41);
+     color: rgb(104, 130, 161);
+}
+
+div.col-1-4{
+    width: 25%;
+    float: left;
+}
+div.col-1-2{ 
+    width: 50%;
+    float: left;
+}
+
+h1#header{
+    font-size: 45px;
 }
