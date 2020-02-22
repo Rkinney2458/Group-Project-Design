@@ -29,7 +29,8 @@ html{
     grid-column-gap: 15px;
     grid-row-gap: 20px;
     padding: 10px;
-    background: rgb(240, 242, 252);
+    background: rgb(53, 57, 80);
+    
  }
  .grid-container > div {
     text-align: center;
