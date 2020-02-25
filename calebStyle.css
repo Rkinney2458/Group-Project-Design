@@ -1,112 +1,166 @@
 html{
-    height: 960px;
-    background: linear-gradient(#61605f, #000003);
- }
- 
- body{
+    height: 1960px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background: linear-gradient(#888e91, #030303)
+}
+
+body{
     height: 100%;
- }
- .item1{grid-area: header;}
- .item2{grid-area: menu;}
- .item3{grid-area: image;}
- .item3-2{grid-area: imgText;}
- .item4{grid-area: article;}
- .item5{grid-area: footer;}
- 
- .item3-2{
-    background: rgb(9, 19, 88);
 }
 
- .grid-container{
-    display: grid;
-    height: 100%;
-    grid-template-rows: 1fr 1fr 3fr 1fr;
-    grid-template-areas: 
-    'header header header header'
-    'image image imgText menu'
-    'article article article menu'
-    'footer footer footer footer';
-    grid-column-gap: 15px;
-    grid-row-gap: 20px;
-    padding: 10px;
-    background: linear-gradient(#61605f, #000003);
- }
- .grid-container > div {
-    text-align: center;
-    padding: 0px 20px;
-    font-size: 30px;
- }
- 
- nav ul{
-     list-style: none;
- }
- nav a{
-     text-decoration: none;
-     color: rgb(13, 8, 41);
-     letter-spacing: 2px;
-     padding-right: 15px;
- }
- nav a:hover{
-     color: rgb(182, 0, 2);
-     text-align: center;
-     
 
- }
- h1{
-    padding: 10px 5px;
-    font-size: 45px;
-    color: rgb(182, 0, 2);
- }
- button{
-    float: left;
-    background: rgb(182, 0, 2);
-    border-radius: 50px;
-    border: none;
-    margin: 5px;
-    padding: 10px;
-    width: 75px;
-    height: 50px;
- }
- 
- img#logo{
-     float: left;
- }
+/* header and the theme button nav */
+.header{
+   padding: 0px;
+   margin: 0px;
+   border: none;
+   width: 100%;
+   height: 550px;
+   
+   
+}
 
- .item1{
-     grid-area: header;
-     background: #000003;
-     color: #4837ff;
-     border: 5px solid #61605f;
+nav#themes ul{
+   list-style: none;
 }
- .item2{
-     grid-area: menu;
-     background: #61605f;}
- .item3{
-     grid-area: image;
-     background: #61605f;}
- .item3-2{
-     grid-area: imgText;
-     background: #61605f;
-    }
- .item4{
-     grid-area: article;
-     background: #61605f;
+nav#themes a{
+   float: right;
+   text-decoration: none;
+   color: #888e91;
+   letter-spacing: 2px;
+   padding-right: 15px;
 }
- .item5{
-     grid-area: footer;
-     background: #000003;
-     color: #4837ff;
+nav#themes a:hover{
+   color: rgb(214, 143, 12);
+   text-align: center;
+}
+
+button{
+  float: left;
+  color: #07b0ff;
+  font-size: 20px;
+  font-weight: bold;
+  background: transparent;
+  border-radius: 50px;
+  border: 2px solid #07b0ff;
+  margin: 5px;
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+button:hover{
+  color:  #888e91;
+  background: #030303;
+  font-weight: 5px;
 }
 
 div.col-1-4{
-    width: 25%;
-    float: left;
+   width: 25%;
+   float: left;
 }
 div.col-1-2{ 
-    width: 50%;
-    float: left;
+   width: 50%;
+   float: left;
+}
+
+img{
+   margin-right: 0px;
 }
 
 h1#header{
-    font-size: 45px;
+   font-size: 45px;
+   margin-top: 25px;
+   margin-left: 0px;
+   position: relative;
+   text-align: left;
+   color: #07b0ff;
 }
+nav#themes{
+   position: relative;
+   margin-bottom: 50px;
+}
+nav#themes > ul{
+   padding: 0px;
+}
+nav#themes li {
+   float: right;
+   text-align: center;
+   margin-bottom: 10px; 
+   padding: 0px 20px;
+}
+
+/* grid layout */
+.item1{grid-area: one;}
+.item2{grid-area: two;}
+.item3{grid-area: three;
+   border: 2px solid #07b0ff;
+}
+.item4{grid-area: four;}
+
+.container{
+    display: grid;
+    height: 55%;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'one one two three'
+    'four four four three';
+    grid-column-gap: 15px;
+    grid-row-gap: 20px; 
+    padding: 10px;
+    background: #030303;
+}
+
+.container > div {
+    background: rgba(124, 124, 124, 0.2);
+    padding: 0px 20px;
+    font-size: 30px;
+    border-radius: 15px;
+ }
+
+h1{
+   margin-top: 5px;
+   margin-bottom: 0px;
+   text-align: center;
+   color: #07b0ff;
+}
+ 
+nav#pages ul{
+   list-style: none;
+}
+nav#pages li{
+   margin: 15px;
+}
+nav#pages a{
+   text-decoration: none;
+   font-size: 25px;
+   padding-right: 30px;
+   color: #888e91;
+}
+
+nav#pages a:hover{
+   color: #07b0ff;
+}
+
+p{
+    font-size: 15px;
+    color: #888e91;
+}
+
+image{
+    color: #888e91;
+    border: 2px solid #888e91;
+}
+
+h2{
+    color: #888e91;
+}
+
+footer{
+   height: 5%;
+   background: #06030a;
+ }
