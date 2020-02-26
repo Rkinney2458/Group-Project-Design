@@ -4,7 +4,7 @@ html{
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background:linear-gradient(#95190C,#610345)no-repeat;
+    background:linear-gradient(#508484,#79C99E)no-repeat;
 }
 
 body{
@@ -172,11 +172,11 @@ nav#pages a:hover{
      grid-column-gap: 15px;
      grid-row-gap: 20px; 
      padding: 10px;
-     background: #610345;
+     background:#79C99E;
  }
  
  .container > div {
-     background:#95190C;
+     background:#508484;
      padding: 0px 20px;
      font-size: 30px;
      border-radius: 15px;
