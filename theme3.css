@@ -9,7 +9,7 @@ html{
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background: linear-gradient(#888e91, #030303) no-repeat;
+    background: linear-gradient(#b5387d, #030303) no-repeat;
     font-family: spaceText, sans-serif;
 }
 
@@ -46,12 +46,12 @@ nav#themes a:hover{
 
 button{
   float: left;
-  color: #07b0ff;
+  color: black;
   font-size: 20px;
   font-weight: bold;
   background: transparent;
   border-radius: 50px;
-  border: 2px solid #07b0ff;
+  border: 2px solid #888e91;
   margin: 5px;
   padding: 10px;
   width: 100px;
@@ -59,7 +59,7 @@ button{
 }
 
 button:hover{
-  color:  #888e91;
+  color: #b5387d;
   background: #030303;
   font-weight: 5px;
 }
@@ -83,7 +83,7 @@ h1#header{
    margin-left: 0px;
    position: relative;
    text-align: left;
-   color: #07b0ff;
+   color: black;
 }
 nav#themes{
    position: relative;
@@ -103,7 +103,7 @@ nav#themes li {
 .item1{grid-area: one;}
 .item2{grid-area: two;}
 .item3{grid-area: three;
-   border: 2px solid #07b0ff;
+   border: 2px solid #b5387d;
 }
 .item4{grid-area: four;}
 
@@ -132,7 +132,7 @@ h1{
    margin-top: 5px;
    margin-bottom: 0px;
    text-align: center;
-   color: #07b0ff;
+   color: #b5387d;
 }
  
 nav#pages ul{
@@ -149,7 +149,7 @@ nav#pages a{
 }
 
 nav#pages a:hover{
-   color: #07b0ff;
+   color: #b5387d;
 }
 
 p{
