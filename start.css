@@ -1,0 +1,27 @@
+html{
+    background-image: url("start.jpeg");
+    background-size: 100%;
+}
+button{
+    width:25%;
+    height: 50px;
+    background-color: firebrick;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+nav#pages{
+    font-size: 20px;
+    text-align: left;
+    float: right;
+}
+#logo{
+width:200px;
+height:200px;
+}
+h1, h2, nav{
+    color: blanchedalmond;
+   }
