@@ -4,7 +4,7 @@ html{
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background: linear-gradient(#24c99d, #030303) no-repeat;
+    background: linear-gradient(#0ec7c1, #030303) no-repeat;
 }
 
 body{
@@ -53,7 +53,7 @@ button{
 }
 
 button:hover{
-    color:  #24c99d;
+    color:  #0ec7c1;
     background: #030303;
     font-weight: 5px;
   }
@@ -97,7 +97,7 @@ button:hover{
   .item1{grid-area: one;}
   .item2{grid-area: two;}
   .item3{grid-area: three;
-     border: 2px solid #24c99d;
+     border: 2px solid #0ec7c1;
   }
   .item4{grid-area: four;}
   
@@ -126,7 +126,7 @@ button:hover{
      margin-top: 5px;
      margin-bottom: 0px;
      text-align: center;
-     color: #24c99d;
+     color: #0ec7c1;
   }
    
   nav#pages ul{
@@ -143,7 +143,7 @@ button:hover{
   }
   
   nav#pages a:hover{
-     color: #24c99d;
+     color: #0ec7c1;
   }
   
   p{
