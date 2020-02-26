@@ -4,7 +4,7 @@ html{
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background:linear-gradient(#95190C,#610345)no-repeat;
+    background:linear-gradient(#034078,#1282A2)no-repeat;
 }
 
 body{
@@ -157,7 +157,7 @@ nav#pages a:hover{
  .item1{grid-area: one;}
  .item2{grid-area: two;}
  .item3{grid-area: three;
-    border: 2px solid rgb(214, 143, 12);
+ border: 2px solid rgb(214, 143, 12);
  }
  .item4{grid-area: four;}
  
@@ -172,11 +172,11 @@ nav#pages a:hover{
      grid-column-gap: 15px;
      grid-row-gap: 20px; 
      padding: 10px;
-     background: #610345;
+     background:#1282A2;
  }
  
  .container > div {
-     background:#95190C;
+     background:#034078;
      padding: 0px 20px;
      font-size: 30px;
      border-radius: 15px;
