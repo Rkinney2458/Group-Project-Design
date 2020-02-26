@@ -1,10 +1,11 @@
 html{
     background-image: url("MachBike2.png");
+    background-size: 100%;
 
     
 }
 button{
-    width:50%;
+    width:25%;
     height: 50px;
     background-color: firebrick;
     color: whitesmoke;
@@ -22,5 +23,4 @@ nav#pages{
 #logo{
 width:200px;
 height:200px;
-
 }
