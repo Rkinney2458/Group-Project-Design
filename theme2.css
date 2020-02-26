@@ -1,3 +1,8 @@
+@font-face{
+   font-family: spaceText;
+   src: url("Alphacentauri-MVY4p.ttf");
+}
+
 html{
     height: 1560px;
     width: 100%;
@@ -5,6 +10,7 @@ html{
     padding: 0px;
     border: 0px;
     background: linear-gradient(#773ea3, #030303) no-repeat;
+    font-family: spaceText, sans-serif;
 }
 
 body{
@@ -147,7 +153,7 @@ nav#pages a:hover{
 }
 
 p{
-    font-size: 25px;
+    font-size: 35px;
     color: #888e91;
 }
 
