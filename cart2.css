@@ -1,7 +1,6 @@
 html{
-    background: linear-gradient(whitesmoke,coral);
-    height: 100%;
-    width: 100%;
+    background-image: url("download\ \(1\).jpeg");
+    background-size: 100%;
 }
 button{
     width:25%;
@@ -22,5 +21,4 @@ nav#pages{
 #logo{
 width:200px;
 height:200px;
-
 }

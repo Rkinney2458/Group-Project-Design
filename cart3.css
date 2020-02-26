@@ -1,7 +1,6 @@
 html{
-    background: linear-gradient(whitesmoke,coral);
-    height: 100%;
-    width: 100%;
+    background-image: url("cart2.png");
+    background-size: 100%;
 }
 button{
     width:25%;
@@ -22,5 +21,7 @@ nav#pages{
 #logo{
 width:200px;
 height:200px;
-
+}
+h1, h2, nav{
+ color: blanchedalmond;
 }
