@@ -9,7 +9,7 @@ html{
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background: linear-gradient(#24c99d, #030303) no-repeat;
+    background: linear-gradient(#51bcd1, #030303) no-repeat;
     font-family: spaceText, sans-serif;
 }
 
@@ -40,7 +40,7 @@ nav#themes a{
    padding-right: 15px;
 }
 nav#themes a:hover{
-   color: rgb(214, 143, 12);
+   color: #51bcd1;
    text-align: center;
 }
 
@@ -59,7 +59,7 @@ button{
 }
 
 button:hover{
-    color:  #24c99d;
+    color:  #51bcd1;
     background: #030303;
     font-weight: 5px;
   }
@@ -103,7 +103,7 @@ button:hover{
   .item1{grid-area: one;}
   .item2{grid-area: two;}
   .item3{grid-area: three;
-     border: 2px solid #24c99d;
+     border: 2px solid #51bcd1;
   }
   .item4{grid-area: four;}
   
@@ -132,7 +132,7 @@ button:hover{
      margin-top: 5px;
      margin-bottom: 0px;
      text-align: center;
-     color: #24c99d;
+     color: #51bcd1;
   }
    
   nav#pages ul{
@@ -149,7 +149,7 @@ button:hover{
   }
   
   nav#pages a:hover{
-     color: #24c99d;
+     color: #51bcd1;
   }
   
   p{
